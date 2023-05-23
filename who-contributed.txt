@@ -1,0 +1,15 @@
+﻿Commands
+1. git log  --pretty=fuller -p > q7 outputs the difference between each commit into the file q7
+2. Use C-s in emacs to find last occurrence of the statement
+
+
+I scrolled up to see the information of this commit:
+
+commit c12b432741eed9a422fbf99fa27af6e7a941d88b
+Author:     Arthur David Olson <ado@elsie>
+AuthorDate: Thu Dec 21 11:43:42 1995 -0500
+Commit:     Paul Eggert <eggert@cs.ucla.edu>
+CommitDate: Wed Jul 18 03:02:20 2012 -0400
+
+
+Hence, this statement was originally introduced by Arthur David Olson in 1995.

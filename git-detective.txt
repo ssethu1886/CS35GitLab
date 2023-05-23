@@ -1,0 +1,29 @@
+﻿The changes which corrected the issues:
+
+
+commit 92481d1b26ab57525f5efe01d01c7a3d337b8df7
+Author:     Johannes Schindelin <Johannes.Schindelin@gmx.de>
+AuthorDate: Wed Sep 28 07:29:22 2022 +0000
+Commit:     Junio C Hamano <gitster@pobox.com>
+CommitDate: Wed Sep 28 08:49:35 2022 -0700
+
+
+commit 0b55d930a69692c7f4e7b90e35fa41f6c46df4bc
+Author:     Johannes Schindelin <Johannes.Schindelin@gmx.de>
+AuthorDate: Wed Sep 28 07:29:21 2022 +0000
+Commit:     Junio C Hamano <gitster@pobox.com>
+CommitDate: Wed Sep 28 08:49:27 2022 -0700
+
+
+
+
+I found these commits by running
+git log --pretty=fuller > sfulllog
+
+
+I then used vim to search for the given phrase “In read-only repositories…” in the file sfulllog. 
+Below the phrase, I found the branchfrom the comment 
+* js/merge-ort-in-read-only-repo:
+      merge-ort: return early when failing to write a blob
+      merge-ort: fix segmentation fault in read-only repositories
+I then searched for merge-ort to find the commits in the branch

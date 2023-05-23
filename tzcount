@@ -1,0 +1,159 @@
+#!/bin/bash
+k=`cut -f6 -d " " |sort`
+echo $k | tr " " "\n" | grep  "\-1200"| 
+if [ `wc -l` -gt 0 ]; then
+ echo "-1200 "  `echo $k | tr " " "\n" | grep  "\-1200"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "\-1100"| 
+if [ `wc -l` -gt 0 ]; then
+ echo "-1100 "  `echo $k | tr " " "\n" | grep "\-1100"| wc -l` 
+fi;
+echo $k | tr " " "\n" | grep  "\-1000"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "-1000 "  `echo $k | tr " " "\n" | grep  "\-1000"| wc -l` 
+fi;
+echo $k | tr " " "\n" | grep  "\-0930"| 
+if [ `wc -l` -gt 0 ]; then
+ echo "-0930 "  `echo $k | tr " " "\n" | grep  "\-0930"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "\-0900"| 
+if [ `wc -l` -gt 0 ]; then
+ echo "-0900 "  `echo $k | tr " " "\n" | grep  "\-0900"| wc -l` 
+fi;
+echo $k | tr " " "\n" | grep  "\-0800"|
+if [ `wc -l` -gt 0 ]; then
+ echo "-0800 "  `echo $k | tr " " "\n" | grep  "\-0800"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "\-0700"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "-0700 "  `echo $k | tr " " "\n" | grep  "\-0700"| wc -l` 
+fi;
+echo $k | tr " " "\n" | grep  "\-0600"| 
+if [ `wc -l` -gt 0 ]; then
+ echo "-0600 "   `echo $k | tr " " "\n" | grep  "\-0600"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "\-0500"| 
+if [ `wc -l` -gt 0 ]; then
+ echo "-0500 "   `echo $k | tr " " "\n" | grep  "\-0500"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "\-0400"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "-0400 "   `echo $k | tr " " "\n" | grep  "\-0400"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "\-0330"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "-0330 "   `echo $k | tr " " "\n" | grep  "\-0330"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "\-0300"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "-0300 "   `echo $k | tr " " "\n" | grep  "\-0300"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "\-0200"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "-0200 "   `echo $k | tr " " "\n" | grep  "\-0200"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "\-0100"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "-0100 "   `echo $k | tr " " "\n" | grep  "\-0100"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "\-0000"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "-0000 "   `echo $k | tr " " "\n" | grep  "\-0000"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0000"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0000 "   `echo $k | tr " " "\n" | grep  "+0000"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0100"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0100 "   `echo $k | tr " " "\n" | grep  "+0100"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0200"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0200 "   `echo $k | tr " " "\n" | grep  "+0200"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0300"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0300 "   `echo $k | tr " " "\n" | grep  "+0300"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0330"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0330 "   `echo $k | tr " " "\n" | grep  "+0330"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0400"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0400 "   `echo $k | tr " " "\n" | grep  "+0400"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0430"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0430 "   `echo $k | tr " " "\n" | grep  "+0430"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0500"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0500 "   `echo $k | tr " " "\n" | grep  "+0500"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0530"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0530 "   `echo $k | tr " " "\n" | grep  "+0530"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0545"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0545 "   `echo $k | tr " " "\n" | grep  "+0545"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0600"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0600 "   `echo $k | tr " " "\n" | grep  "+0600"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0630"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0630 "   `echo $k | tr " " "\n" | grep  "+0630"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0700"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0700 "   `echo $k | tr " " "\n" | grep  "+0700"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0800"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0800 "   `echo $k | tr " " "\n" | grep  "+0800"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0845"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0845 "   `echo $k | tr " " "\n" | grep  "+0845"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0900"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0900 "   `echo $k | tr " " "\n" | grep  "+0900"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+0930"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+0930 "   `echo $k | tr " " "\n" | grep  "+0930"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+1000"| 
+if [ `wc -l` -gt 0 ]; then
+ echo "+1000 "   `echo $k | tr " " "\n" | grep  "+1000"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+1030"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+1030 "   `echo $k | tr " " "\n" | grep  "+1030"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+1100"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+1100 "   `echo $k | tr " " "\n" | grep  "+1100"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+1200"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+1200 "   `echo $k | tr " " "\n" | grep  "+1200"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+1245"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+1245 "   `echo $k | tr " " "\n" | grep  "+1245"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+1300"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+1300 "   `echo $k | tr " " "\n" | grep  "+1300"| wc -l`
+fi;
+echo $k | tr " " "\n" | grep  "+1400"|  
+if [ `wc -l` -gt 0 ]; then
+ echo "+1400 "   `echo $k | tr " " "\n" | grep  "+1400"| wc -l`
+fi;
+

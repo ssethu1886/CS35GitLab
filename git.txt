@@ -1,0 +1,14 @@
+﻿The output of git branch for my repository:
+
+
+* master
+
+
+For ~eggert/src/github/git
+
+
+  maint
+* master
+  next
+  seen
+  todo
